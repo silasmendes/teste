@@ -2,7 +2,7 @@
 	"name": "SELECT TOP 100 xyz",
 	"properties": {
 		"content": {
-			"query": "SELECT TOP 100 * FROM xyz\nGO\n\n",
+			"query": "SELECT TOP 100 * FROM xyz order by 1\nGO\n\n",
 			"metadata": {
 				"language": "sql"
 			},
